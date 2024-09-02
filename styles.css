@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+    color: aliceblue;
+}
+main{
+    min-height: 100vh;
+    background-color:rgb(39, 38, 38);
+
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 0.3rem;
+    word-spacing: 2rem;
+}
+.element{
+    background-color: black;
+    padding: 0.3rem 0.6rem;
+    width: 100%;
+    position: relative;
+    border: 1px solid powderblue;
+    cursor: pointer;
+    transition: all 2s;
+}
+.atomicNumber{
+    position: relative;
+    right: 0.4rem;
+    top:-0.1rem;
+    font-size: 0.6rem;
+}
+.Symbol{
+    color: skyblue;
+    text-align: center;
+    font-size: 1rem;
+}
+.name{
+    font-size: 0.4rem;
+    text-align: center;
+}
+.atomicWeight{
+    font-size: 0.4rem;
+    position: relative;
+    right: 0.4rem;
+    margin-top: 0.4rem;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(18,minmax(4rem,1fr));
+    grid-template-rows: 4.5rem;
+    margin-top: 1rem;
+}
+
+.image {
+    height: 250px;
+    width:200px;
+    border: 2px solid yellow;
+    position: absolute;
+    top: -11rem;
+    left: -4rem;
+    z-index: 1;
+    opacity: 0;
+    background-image: linear-gradient(black,black);
+    pointer-events: none;
+    transition: all 0.25s ease-in;
+}
+.block {
+    text-align: center;
+    padding-top: 1rem;
+}
+.block p{
+    font-size: 0.8rem;
+}
+
+.Noble h2{
+    color: purple;
+}
+.Noble{
+    border-color:  purple;
+}
+.Alkali h2{
+    color:magenta;
+}
+.Alkali{
+    border-color:magenta;
+}
+.Alkaline h2{
+    color:orangered;
+}
+.Alkaline{
+    border-color: orangered;
+}  
+.Metalloid h2{
+    color:cyan;
+}
+.Metalloid{
+    border-color:  cyan;
+}  
+.P-Block h2{
+    color:rgb(47, 47, 196);
+}
+.P-Block{
+    border-color: rgb(47, 47, 196);
+}  
+.Halogen h2{
+    color:pink;
+}
+.Halogen{
+    border-color: pink;
+}  
+.Three-A h2{
+    color:lime;
+}
+.Three-A{
+    border-color: lime;
+}  
+.Transitional h2{
+    color:yellow;
+}
+.Transitional{
+    border-color: yellow;
+}  
+.Lanthanides h2{
+    color:cyan;
+}
+.Lanthanides{
+    border-color: cyan;
+} 
+.topA{
+    position:absolute;
+    top:-4rem;
+    left:1.5rem;
+}
+.topB{
+    position:absolute;
+    top:-4rem;
+    right:1.5rem;
+}
+.element{
+    transition: all 1s ease;   
+}
+
+.element:hover{
+    transform: translateY(-8rem) scale(2,2);
+    z-index: 1;
+}
+.Noble:hover{
+    transform: translateX(-2.1rem) translateY(-8rem) scale(2,2);
+}
+.Lutetium:hover{
+    transform: translateX(-2.1rem) translateY(-8rem) scale(2,2);
+}
+.Lawrencium:hover{
+    transform: translateX(-2.1rem) translateY(-8rem) scale(2,2);
+}
+.Alkali:hover{
+    transform: translateX(2.1rem) translateY(-8rem) scale(2,2);
+}
+.Helium:hover{
+    transform: translateX(-2.2rem) translateY(-2rem) scale(2,2);
+}
+.Hydrogen:hover{
+    transform: translateX(2.2rem) translateY(-2rem) scale(2,2);
+}
+.Lanthanides-Actinides{
+    background-color:rgb(39, 38, 38);
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    margin-left: 12.5rem;
+    width: 60rem;
+}
+.Lanthanides{
+    width: 4rem;
+}
+.container{
+    margin-right: 0.5rem;
+}
